@@ -1,0 +1,93 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+header {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid rgb(207, 205, 205);
+}
+
+header img {
+  width: 300px;
+  margin: 5px 10px;
+  border-radius: 50%;
+}
+
+main {
+  display: flex;
+  height: calc(100vh - 180px);
+}
+
+aside {
+  width: 350px;
+  border-right: 1px solid rgb(207, 205, 205);
+}
+
+section {
+  padding: 10px;
+  flex: 1;
+}
+.single-timezone {
+  border: 1px solid gray;
+  display: inline-block;
+  padding: 20px 40px 40px 40px;
+  text-align: center;
+  position: relative;
+  margin: 10px;
+}
+.single-timezone h3 {
+  margin: 0 0 30px 0;
+}
+
+.single-timezone span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 2px;
+  background: red;
+  color: white;
+  cursor: pointer;
+}
+
+aside div {
+  border: 1px solid rgb(179, 176, 176);
+  width: 90%;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.add-clock-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 10px;
+  position: fixed;
+  width: 280px;
+  left: 35px;
+}
+
+.add-clock-box button {
+  padding: 5px;
+  font-size: 18px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid grey;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.add-clock-box select {
+  width: 90%;
+  padding: 5px;
+  font-size: 16px;
+}
