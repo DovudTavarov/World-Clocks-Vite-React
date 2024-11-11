@@ -22,5 +22,5 @@ Time zone data and names are sourced from the [Moment Timezone](https://momentjs
 
 1. **Clone the repository**:
    ```bash
-   git clone
+   git clone https://github.com/DovudTavarov/World-Clocks-Vite-React.git
    ```
