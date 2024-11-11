@@ -1,8 +1,26 @@
-# React + Vite
+# Time Zone Clock App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This React web application allows users to add clocks displaying the current time in different time zones. Users can select from various time zones and set custom names for each clock.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Add and manage clocks** for multiple time zones.
+- **Customize** each clock with a unique name and time zone.
+- **Real-time updates** for each clock based on the selected time zone.
+
+## Time Zone Data
+
+Time zone data and names are sourced from the [Moment Timezone](https://momentjs.com/timezone/) library.
+
+## Technologies Used
+
+- **React** – Front-end framework for building user interfaces.
+- **Vite** – Fast development environment for modern web projects.
+- **Moment.js & Moment Timezone** – Handles date, time, and time zone functionality.
+
+## Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone
+   ```
